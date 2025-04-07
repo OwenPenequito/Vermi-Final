@@ -13,6 +13,12 @@ const MAPPING = {
   'paperplane.fill': 'send',
   'chevron.left.forwardslash.chevron.right': 'code',
   'chevron.right': 'chevron-right',
+  'ellipsis.circle.fill': 'menu',
+  'gearshape.2.fill': 'settings',
+  'thermometer.high': 'thermostat',
+  'gauge.badge.plus': 'gas-meter',
+  'water.waves': 'water-drop',
+  'chart.bar.fill': 'stacked-line-chart',
 } as Partial<
   Record<
     import('expo-symbols').SymbolViewProps['name'],
